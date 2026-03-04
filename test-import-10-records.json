@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "id": 8884,
+      "title": "LINZ - Jacksons Inlet",
+      "recordeddate": "3/02/2026",
+      "rego": "Fis5NO",
+      "note": "",
+      "attachments": 0
+    },
+    {
+      "id": 8883,
+      "title": "LINZ - Jacksons Inlet",
+      "recordeddate": "3/02/2026",
+      "rego": "Hsm82",
+      "note": "",
+      "attachments": 0
+    },
+    {
+      "id": 8882,
+      "title": "LINZ - Jacksons Inlet",
+      "recordeddate": "3/02/2026",
+      "rego": "Pip93",
+      "note": "Vehicle parked overnight",
+      "attachments": 0
+    },
+    {
+      "id": 8881,
+      "title": "LINZ - Champagne Gully",
+      "recordeddate": "2/02/2026",
+      "rego": "922d6",
+      "note": "",
+      "attachments": 0
+    },
+    {
+      "id": 8880,
+      "title": "LINZ - Champagne Gully",
+      "recordeddate": "2/02/2026",
+      "rego": "Qey735",
+      "note": "Self-contained sticker visible",
+      "attachments": 1
+    },
+    {
+      "id": 8879,
+      "title": "LINZ - Bendigo",
+      "recordeddate": "1/02/2026",
+      "rego": "ABC123",
+      "note": "",
+      "attachments": 0
+    },
+    {
+      "id": 8878,
+      "title": "LINZ - Bendigo",
+      "recordeddate": "1/02/2026",
+      "rego": "XYZ789",
+      "note": "Repeat offender",
+      "attachments": 0
+    },
+    {
+      "id": 8877,
+      "title": "LINZ - Lowburn",
+      "recordeddate": "31/01/2026",
+      "rego": "TEST01",
+      "note": "",
+      "attachments": 0
+    },
+    {
+      "id": 8876,
+      "title": "LINZ-Champagne Gully",
+      "recordeddate": "30/01/2026",
+      "rego": "TEST02",
+      "note": "Officer approached vehicle",
+      "attachments": 0
+    },
+    {
+      "id": 8875,
+      "title": "LINZ -Bendigo",
+      "recordeddate": "29/01/2026",
+      "rego": "TEST03",
+      "note": "",
+      "attachments": 0
+    }
+  ]
+}

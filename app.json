@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "JDE Security",
+    "slug": "jde-security",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/jds-security-logo.png",
+    "scheme": "jdesecurity",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/jds-security-logo.png",
+        "backgroundColor": "#1e3a8a"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION",
+        "CAMERA"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/jds-security-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/jds-security-logo.png",
+          "imageWidth": 250,
+          "resizeMode": "contain",
+          "backgroundColor": "#1e3a8a"
+        }
+      ],
+      "expo-web-browser",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "JDE Security needs your location to track patrol routes and ensure officer safety during field operations.",
+          "locationAlwaysPermission": "JDE Security needs background location access for continuous safety monitoring during patrols, even when the app is minimized or the screen is locked.",
+          "locationWhenInUsePermission": "JDE Security needs your location to record vehicle observations and GPS-stamp patrol routes.",
+          "isIosBackgroundLocationEnabled": true,
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "JDE Security needs camera access to scan vehicle license plates for compliance tracking.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
